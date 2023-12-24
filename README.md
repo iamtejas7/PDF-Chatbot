@@ -14,11 +14,13 @@ Vector Databases are kind of database or store which allow us to stor high dimen
 Streamlit is an open source python library/framework used to create and share webpages/front end applications.
 
 # General Pipeline of PDF-Chatbot :
-## 1. Fetching text from uploaded pdf
-## 2. Creating Chunks of extracted text
-## 3. Applying Embeddings on chunks and storing it in Vector db
-## 4. Taking user question
-## 5. Applying same Embeddings on question text
-## 6. Searching and extracting most similar chunks from vector db using (using semantic search or cosine similariy)
-## 7. Passing most similar chunk along with question as an input prompt to LLM. (RAG)
-## 8. LLM will generate relevant output as per user question.
+1. Fetching text from uploaded pdf
+2. Creating Chunks of extracted text
+3. Applying Embeddings on chunks and storing it in Vector db
+4. Taking user question
+5. Applying same Embeddings on question text
+6. Searching and extracting most similar chunks from vector db using (using semantic search or cosine similariy)
+7. Passing most similar chunk along with question as an input prompt to LLM. (RAG)
+8. LLM will generate relevant output as per user question.
+
+
